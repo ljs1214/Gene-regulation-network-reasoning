@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Sparse_Optimization_Toolbox.egg-info/PKG-INFO
+Sparse_Optimization_Toolbox.egg-info/SOURCES.txt
+Sparse_Optimization_Toolbox.egg-info/dependency_links.txt
+Sparse_Optimization_Toolbox.egg-info/top_level.txt
