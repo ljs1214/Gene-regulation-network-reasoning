@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Sparse-Optimization-Toolbox
-Version: 0.0.2
+Version: 0.1.0
 Summary: Package for Sparse optimization
 Home-page: https://github.com/ljs1214/Gene-regulation-network-reasoning
 Author: Lou jiashu
@@ -48,13 +48,15 @@ matCreater.matCreater(tfLen=10, sampleNums=200, geneNums=2000, normalLoc=0, norm
 
 ```{python}
 from sparsetools import Optimization
-Optimization.networkreasoning(expre, HGS, tf_names, gene_names)
+Optimization.voting(expre, tf_names, gene_names)
 ```
 | Parameter  |      Type      |  Explanation|
 |----------|:-------------:|------:|
 | expre|  np.array | The expresion matrix of genes|
-| HGS|    np.array  |  The matrix of network, first row is the names of TF and second row is the names of target genes.|
 |tf_names| np.array|   Names of tf |
 |gene_names| np.array|  Name of all genes(including TF)  |
+
+### **Return:**
+The moderation network result matrix of the voting algorithm, while the results of the independent algorithm are named with the algorithm name and stored locally.
 
 
